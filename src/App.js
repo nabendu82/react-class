@@ -1,20 +1,25 @@
 import './App.css';
-import Greet from './components/Greet';
-// import { Greeting, GreetingJavaScript } from './components/Greeting';
-import Welcome from './components/Welcome';
+// import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+import UserList from './components/UserList';
+// import Counter from './components/Counter';
+// import Greet from './components/Greet';
+// import Welcome from './components/Welcome';
 
 function App() {
   return (
     <div className="App">
-      <Greet name="React" />
+      {/* <Greet name="React" />
       <Greet name="Golang" />
       <Greet name="JavaScript">Language of the web</Greet>
-      {/* <Greeting />
-      <GreetingJavaScript /> */}
       <hr />
       <Welcome lang="Swift">Language of iOS Apps</Welcome>
       <Welcome lang="Kotlin" />
-      <Welcome lang="Python">Language of AI</Welcome>
+      <Welcome lang="Python">Language of AI</Welcome> */}
+      {/* <Counter /> */}
+      {/* <ParentComponent /> */}
+      {/* <UserGreeting /> */}
+      <UserList />
     </div>
   );
 }
